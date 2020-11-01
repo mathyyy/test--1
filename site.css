@@ -1,0 +1,35 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      perspective: 1000px;
+      background-color: lightgoldenrodyellow;
+    }
+
+    .logo {
+      width: 200px;
+      height: 200px;
+      margin-right: 30px;
+    }
+
+    .sidebar {
+      width: 200px;
+    }
+
+    .postlist {
+      width: 600px;
+    }
+
+    .post {
+      margin-top: 80px;
+    }
+
+    .post h3 {
+      font-size: 44px;
+      line-height: 46px;
+      margin: 10;
+    }
+
+    .post p {
+      font-size: 15px;
+      line-height: 17px;
+    }
+  
