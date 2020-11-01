@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: center;
+  }
+ 
+  form {
+    padding: 15px;
+    background-color: olive;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: thin;
+    height: 35px;
+    margin-top: 25px;
+  }
+ 
+  .form {
+   max-height: 10px;
+   display: flex;
+   align-items: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+ 
+ .translit {
+   display: flex;
+   justify-content: space-between;
+   background-color: yellowgreen;
+   margin: 25px;
+   border: medium;
+   border-radius: 5px;
+ }
+ 
+ .latin, .kirilic{
+   margin: 10px;
+ }
+ 
+ @media (max-width: 767px) {
+   .translit{
+     flex-direction: column;
+   }
+ }
